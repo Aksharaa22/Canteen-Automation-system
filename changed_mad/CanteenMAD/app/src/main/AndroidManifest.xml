@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.canteenmad">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logomad"
+        android:label="PSG Canteen"
+        android:roundIcon="@drawable/logomad"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CanteenMAD">
+        <activity
+            android:name=".Dashingboard"
+            android:exported="true" />
+        <activity
+            android:name=".Dashboard_java"
+            android:exported="true" />
+        <activity
+            android:name=".Student_bill_no"
+            android:exported="true" />
+        <activity
+            android:name=".PendingOrder"
+            android:exported="true" />
+        <activity
+            android:name=".Modify_Home_Java"
+            android:exported="true" />
+        <activity
+            android:name=".ModifyingFormDisplay"
+            android:exported="true" />
+        <activity
+            android:name=".ModifyHome"
+            android:exported="true" />
+        <activity
+            android:name=".ModifyDisplay"
+            android:exported="true" />
+        <activity
+            android:name=".ViewOrder"
+            android:exported="true" />
+        <activity
+            android:name=".BillDisplay"
+            android:exported="true" />
+        <activity
+            android:name=".DisplayMenuCart"
+            android:exported="true" />
+        <activity
+            android:name=".CartActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MenuAdd"
+            android:exported="true" />
+        <activity
+            android:name=".Display"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard"
+            android:exported="true" />
+        <activity
+            android:name=".EmenuDisplay"
+            android:exported="true" />
+        <activity
+            android:name=".EmenuAdd"
+            android:exported="true" />
+        <activity
+            android:name=".Login"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

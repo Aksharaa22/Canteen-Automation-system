@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">CanteenMAD</string>
+    <string-array name="types">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Snack
+        </item>
+        <item>Evening Tiffin</item>
+        <item>Beverages</item>
+    </string-array>
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>

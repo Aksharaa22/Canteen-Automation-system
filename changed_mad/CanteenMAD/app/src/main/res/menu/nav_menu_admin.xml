@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="General View">
+        <menu>
+            <item
+                android:id="@+id/ViewOrder"
+                android:icon="@drawable/ic_baseline_storage_24"
+                android:title="View Order" />
+            <item
+                android:id="@+id/AddMenu"
+                android:icon="@drawable/ic_baseline_menu_book_24"
+                android:title="Add Menu"/>
+            <item
+                android:id="@+id/ModifyMenu"
+                android:icon="@drawable/ic_baseline_menu_open_24"
+                android:title="Modify Menu" />
+            <item
+                android:id="@+id/PendingOrder"
+                android:icon="@drawable/ic_baseline_menu_open_24"
+                android:title="Pending Order" />
+        </menu>
+    </item>
+
+    <item android:title="Logout">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_baseline_vpn_key_24"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
